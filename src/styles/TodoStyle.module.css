@@ -1,0 +1,186 @@
+.appContainer {
+	width: 100%;
+	max-width: 380px;
+	height: auto;
+	display: flex;
+	position: relative;
+}
+
+.listContainer {
+	width: 100%;
+	max-width: 312px;
+	height: auto;
+	display: inline-block;
+	position: relative;
+}
+
+.todoContainer {
+	background-color: beige;
+	font-size: 16px;
+	width: 100%;
+	max-width: 312px;
+	height: auto;
+	margin: 2px 0px 2px 0px;
+	border: 2px solid #DEB887;
+	border-radius: 3px;
+	box-sizing: border-box;
+	display:flex;
+	justify-content: flex-start;
+	position: relative;
+	z-index: auto;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.todoTextareaContainer {
+	width: 250px;
+	height: auto;
+	position: relative;
+	background-color: transparent;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+.spanStyle {
+	display: inline-block;
+	position: relative;
+	border: 0;
+	color: transparent;
+	font-size: 0.875em;
+	font-family: verdana;
+	width: 250px;
+	height: 100%;
+	z-index: 2;
+	line-height: 1;
+}
+
+.todoText {
+	outline: none;
+   -webkit-box-shadow: none;
+   -moz-box-shadow: none;
+   box-shadow: none;
+  	outline:0px none transparent;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background-color: transparent;
+	border: 0;
+	font-size: 0.875rem;
+	font-family: verdana;
+	color: #A52A2A;
+	width: 100%;
+	height: 100%;
+	resize: none;
+	z-index: 3;
+	line-height: 1;
+	caret-color: #A52A2A;
+	caret-shape: block;
+}
+
+
+
+
+.todoDelete {
+	position: absolute;
+	padding: 0 0 1px 0;
+	top: 2px;
+	right: 2px;
+	height: 1em;
+	width: 1em;
+	background-color:transparent;
+	font-size: .5em;
+	color: #556B2F;
+	border: .125em solid #DEB887;
+	border-radius: .125em;
+	margin: .063em .063em;
+	display: flex;
+	align-content: center;
+	align-items: center;
+	overflow: hidden;
+}
+
+.todoCheckbox {
+	-webkit-appearance: none;
+	appearance: none;
+	position: relative;
+	width: .5em;
+	height: .5em;
+	border-radius: 2px;
+	border: .125em solid #556B2F;
+	padding: .5em;
+	cursor: pointer;
+}
+
+
+.todoCheckbox:checked:after {
+	position: absolute;
+	content: '\2714';
+	font-size: 1em;
+	bottom: 0px;
+	left: 2px;
+	color: green;
+}
+
+
+.todoSearch {
+	display: inline-block;
+	position: sticky;
+	width: 100%;
+	max-width: 312px;
+	background-color: beige;
+	border: 2px solid #DEB887;
+	border-radius: 3px;
+	margin: 2px 0 0 0;
+	font-size: 1em;
+	box-sizing: border-box;
+}
+
+.mainButtons {
+	width: 1.5em;
+	height: 1.5em;
+	background-color: beige;
+	border: 2px solid #DEB887;
+	border-radius: 3px;
+	margin: 2px 0 0 2px;
+	font-size: 1em;
+	box-sizing: border-box;
+	position: sticky;
+	display: inline-block;
+	align-content: center;
+	align-items: center;
+}
+.SearchButton {
+	top: 5px;
+	padding-left: 2px;
+}
+.HomeButton {
+	padding-left: 5px;
+}
+.AddButton {
+	top: 2px;
+}
+.ReverseListButton {
+	top: 2px;
+	padding-left: 2px;
+}
+.toListButton {
+	padding-left: 2px;
+	margin: 0;
+}
+
+
+span {
+	display: block;
+}
+
+a {
+	color: #A52A2A;
+	width: 100%;
+	text-decoration: inherit;
+}
+
+.searchBlock {
+	position: sticky;
+}
+

@@ -1,0 +1,114 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "todo": "Попить чай, собрать вещи, умыться",
+      "complete": false
+    },
+    {
+      "todo": "Потренироваться",
+      "complete": true,
+      "id": "2"
+    },
+    {
+      "id": "3",
+      "todo": "Выпить витамины",
+      "complete": false
+    },
+    {
+      "todo": "Провести уборку",
+      "complete": true,
+      "id": "4"
+    },
+    {
+      "todo": "Погулять с собакой",
+      "complete": false,
+      "id": "5"
+    },
+    {
+      "todo": "Посмотреть турнир",
+      "complete": false,
+      "id": "6"
+    },
+    {
+      "todo": "Встретиться с партнером",
+      "complete": false,
+      "id": "7"
+    },
+    {
+      "todo": "Купить хлеб",
+      "complete": false,
+      "id": "8"
+    },
+    {
+      "todo": "Забрать почту, проверить на ...",
+      "complete": false,
+      "id": "9"
+    },
+    {
+      "todo": "Приготовить ужин",
+      "complete": false,
+      "id": "10"
+    },
+    {
+      "todo": "Проверить график",
+      "complete": true,
+      "id": "11"
+    },
+    {
+      "todo": "Сходить ко врачу",
+      "complete": false,
+      "id": "12"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": true,
+      "id": "89wXAq3"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "SMg6adA"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "p8mJw17"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "FpChaR0"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "N8hMCRA"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "Z6Bw_-l"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "LSn_2Sz"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "F3OlQ-H"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "9eaQOyN"
+    },
+    {
+      "todo": "Новая заметка",
+      "complete": false,
+      "id": "67cebV3"
+    }
+  ]
+}
