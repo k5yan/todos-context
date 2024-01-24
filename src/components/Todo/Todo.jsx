@@ -1,8 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import styles from '../styles/TodoStyle.module.css';
-import { SaveTodoChanges } from '../App/SaveTodoChanges';
-import { DeleteTodo } from '../App/DeleteTodo';
+import styles from '../../styles/TodoStyle.module.css';
+import { SaveTodoChanges } from '../../utils';
+import { DeleteTodo } from '../../utils';
 
 export const Todo = () => {
 	const [todoText, setTodoText] = useState(``);
